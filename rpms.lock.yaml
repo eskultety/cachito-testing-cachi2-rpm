@@ -1,0 +1,22 @@
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+  - arch: x86_64
+    packages:
+      - repoid: releases
+        url: http://fedora.c3sl.ufpr.br/linux/releases/39/Everything/x86_64/os/Packages/g/gpm-libs-1.20.7-44.fc39.x86_64.rpm
+        size: 20721
+        checksum: sha256:f5c8f20f0f9468da8cdf140d7df30ed117a43b73eee816888e2624b0fcd048cb
+      - repoid: releases
+        url: http://fedora.c3sl.ufpr.br/linux/releases/39/Everything/x86_64/os/Packages/l/libsodium-1.0.18-14.fc39.x86_64.rpm
+        size: "165965"
+        checksum: sha256:e38200a7b1012935dc83e8039c71c0fd2f84a4463ca086cb42f60f488cdad8e7
+    source:
+      - repoid: releases
+        url: http://fedora.c3sl.ufpr.br/linux/releases/39/Everything/source/tree/Packages/g/gpm-1.20.7-44.fc39.src.rpm
+        size: 251337
+        checksum: sha256:2eb2412dde91b1130433c90ad53b889cb1e0fb0df324e015f29e76d7235ac438
+      - repoid: releases
+        url: http://fedora.c3sl.ufpr.br/linux/releases/39/Everything/source/tree/Packages/l/libsodium-1.0.18-14.fc39.src.rpm
+        size: 1953916
+        checksum: sha256:d20e5f6e358aa0c07260872ffb00d502f77778ae7496a836da0a65a6ce1cd709
